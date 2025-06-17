@@ -118,17 +118,17 @@ const ContactForm: React.FC = () => {
                 <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg transition mt-2 shadow disabled:bg-indigo-400"
+                    className="bg-indigo-900 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg transition mt-2 shadow disabled:bg-indigo-400"
                 >
                     {isSubmitting ? 'Wysyłanie...' : 'Wyślij'}
                 </button>
                 {submitted && (
-                    <div className="text-green-700 font-semibold mt-2">
+                    <div className="text-indigo-900 text-center font-semibold mt-2">
                         Dziękujemy za kontakt! Odpowiemy wkrótce.
                     </div>
                 )}
                 {error && (
-                    <div className="text-red-700 font-semibold mt-2">
+                    <div className="text-red-900 font-semibold mt-2">
                         Wystąpił błąd: {error}
                     </div>
                 )}
