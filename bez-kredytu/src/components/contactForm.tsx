@@ -123,12 +123,12 @@ const ContactForm: React.FC = () => {
                     {isSubmitting ? 'Wysyłanie...' : 'Wyślij'}
                 </button>
                 {submitted && (
-                    <div className="text-green-700 font-semibold mt-2">
+                    <div className="text-indigo-900 font-semibold mt-2">
                         Dziękujemy za kontakt! Odpowiemy wkrótce.
                     </div>
                 )}
                 {error && (
-                    <div className="text-red-700 font-semibold mt-2">
+                    <div className="text-red-900 font-semibold mt-2">
                         Wystąpił błąd: {error}
                     </div>
                 )}

@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
     }
 
     const { error } = await resend.emails.send({
-      from: 'onboarding@resend.dev', 
+      from: 'noreply@bezkredytu.com', 
       to: 'appbmpk@gmail.com',
       subject: `Nowa wiadomość w temacie: ${topic}`,
       html: `
