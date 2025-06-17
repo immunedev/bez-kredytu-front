@@ -12,6 +12,7 @@ const Navbar: React.FC = () => {
             <div className="font-bold text-2xl text-[#2c3e50]">
                 BezKredytu
                 <span className="text-red-600">.com</span>
+                <span>  WERSJA DEMONSTRACYJNA</span>
             </div>
             {/* Hamburger */}
             <button
