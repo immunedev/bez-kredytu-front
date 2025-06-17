@@ -12,8 +12,8 @@ export async function POST(req: NextRequest) {
     }
 
     const { error } = await resend.emails.send({
-      from: 'onboarding@resend.dev', 
-      to: 'appbmpk@gmail.com',
+      from: process.env.MAIL_FROM || '',
+      to: process.env.MAIL_TO || '',
       subject: `Nowa wiadomość w temacie: ${topic}`,
       html: `
         <p><strong>Email:</strong> ${email}</p>
