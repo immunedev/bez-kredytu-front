@@ -44,7 +44,7 @@ const MainView: React.FC = () => {
                     Sprawdź ofertę kancalarii
                 </a>
                 <div className="text-xs text-black mt-2 leading-tight">
-                    Materiał promocyjny – informowanie o wykonywaniu zawodu radcy prawnego, zgodnie z art. 31 Kodeksu Etyki Radcy Prawnego
+                    Materiał promocyjny – informowanie o wykonywaniu zawodu adwokatów i radców prawnych, zgodnie z art. 31 Kodeksu Etyki Radcy Prawnego
                 </div>
             </div>
         </div>
